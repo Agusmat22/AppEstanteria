@@ -38,9 +38,9 @@ namespace Biblioteca
         public string MostrarProducto(string marca,string codigo,float precio)
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine($"Marca: {marca}");
-            sb.AppendLine($"Precio: {precio}");
-            sb.AppendLine($"Codigo de barra: {marca}");
+            sb.AppendLine($"Marca: {marca} ");
+            sb.AppendLine($"Precio: {precio} ");
+            sb.AppendLine($"Codigo de barra: {marca} ");
 
             return sb.ToString();
         }
