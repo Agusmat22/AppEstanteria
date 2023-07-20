@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tQ6lyNdjF7Uqt+jYOkU+TA3BB0ZVxTlyv1mUBjA3LHDPnA0opBPYMSRC8e744mTTQelEiDAuDp08iQ3j8FGB7Q==",
+  "dgSpecHash": "rDK8EWdmOK+Xtwt7XxEYZK8NNAE/WCgi6OLKRIWEQYfLvKefzWxW7EKUSsUVrFyfEF+doFIx40A/hCWoB194Eg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lisandro\\Desktop\\Curso de utf c#\\Estante\\Biblioteca\\Biblioteca.csproj",
+  "projectFilePath": "C:\\Users\\Lisandro\\Source\\Repos\\AppEstanteria\\Biblioteca\\Biblioteca.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

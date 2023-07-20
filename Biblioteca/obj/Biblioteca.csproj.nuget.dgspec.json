@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lisandro\\Desktop\\Curso de utf c#\\Estante\\Biblioteca\\Biblioteca.csproj": {}
+    "C:\\Users\\Lisandro\\Source\\Repos\\AppEstanteria\\Biblioteca\\Biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lisandro\\Desktop\\Curso de utf c#\\Estante\\Biblioteca\\Biblioteca.csproj": {
+    "C:\\Users\\Lisandro\\Source\\Repos\\AppEstanteria\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lisandro\\Desktop\\Curso de utf c#\\Estante\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\Lisandro\\Source\\Repos\\AppEstanteria\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\Lisandro\\Desktop\\Curso de utf c#\\Estante\\Biblioteca\\Biblioteca.csproj",
+        "projectPath": "C:\\Users\\Lisandro\\Source\\Repos\\AppEstanteria\\Biblioteca\\Biblioteca.csproj",
         "packagesPath": "C:\\Users\\Lisandro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lisandro\\Desktop\\Curso de utf c#\\Estante\\Biblioteca\\obj\\",
+        "outputPath": "C:\\Users\\Lisandro\\Source\\Repos\\AppEstanteria\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lisandro\\AppData\\Roaming\\NuGet\\NuGet.Config",

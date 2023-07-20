@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JS3PUKwW7ENLRfFMhFbhQHnK0sEgLNnGUTOsuR2IMDM3TthZRvar11M3aKgOd9IaMryijLelWb3tj1NR5BZjUw==",
+  "dgSpecHash": "cX3YJ+AuabOgGIMwRE3UlKTbd3o5nhNdP4g99zvfPXyY0dds9Qt/DuEMOfaXj6IebdSK74sy93+rH8xwvTPBWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lisandro\\Desktop\\Curso de utf c#\\Estante\\Estante\\Estante.csproj",
+  "projectFilePath": "C:\\Users\\Lisandro\\Source\\Repos\\AppEstanteria\\Estante\\Estante.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

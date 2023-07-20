@@ -44,5 +44,12 @@ namespace Biblioteca
 
             return sb.ToString();
         }
+
+        //CREO UN OPERADOR EXPLICITO
+        
+        public static explicit operator string( Producto obj ) 
+        {
+            return obj.codigoDeBarra;
+        }
     }
 }
