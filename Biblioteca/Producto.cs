@@ -46,10 +46,37 @@ namespace Biblioteca
         }
 
         //CREO UN OPERADOR EXPLICITO
-        
         public static explicit operator string( Producto obj ) 
         {
             return obj.codigoDeBarra;
         }
+
+        //CREO UNA SOBRECARGA DE OPERADORES
+
+        public static bool operator ==( Producto producto1, Producto producto2 )
+        { 
+            return producto1.GetMarca == producto2.GetMarca;
+            
+        }
+
+        public static bool operator ==(Producto producto1,string marcaIngresada)
+        {
+            return producto1.marca == marcaIngresada;
+
+        }
+
+
+        public static bool operator !=(Producto producto1, Producto producto2)
+        {
+            return producto1.GetMarca != producto2.GetMarca;
+
+        }
+
+        public static bool operator !=(Producto producto1, string marcaIngresada)
+        {
+            return producto1.GetMarca != marcaIngresada;
+
+        }
+
     }
 }
