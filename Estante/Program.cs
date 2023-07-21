@@ -14,7 +14,7 @@ namespace Estante
             string numero = (string)product;
             Console.WriteLine(numero);
             Console.WriteLine($"La marca del producto 1 y del producto 2 son: {product == product2}");
-            Console.WriteLine(Estanteria.MostrarEstante(estante1));
+            Console.WriteLine(Estanteria.MostrarEstante(estante1)) ;
             Console.WriteLine(estante1 == product);
 
             if (estante1 + product)

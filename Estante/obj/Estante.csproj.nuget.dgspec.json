@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lisandro\\Source\\Repos\\AppEstanteria\\Estante\\Estante.csproj": {}
+    "C:\\Users\\Lisandro\\Source\\Repos\\Agusmat22\\AppEstanteria\\Estante\\Estante.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lisandro\\Source\\Repos\\AppEstanteria\\Biblioteca\\Biblioteca.csproj": {
+    "C:\\Users\\Lisandro\\Source\\Repos\\Agusmat22\\AppEstanteria\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lisandro\\Source\\Repos\\AppEstanteria\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\Lisandro\\Source\\Repos\\Agusmat22\\AppEstanteria\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\Lisandro\\Source\\Repos\\AppEstanteria\\Biblioteca\\Biblioteca.csproj",
+        "projectPath": "C:\\Users\\Lisandro\\Source\\Repos\\Agusmat22\\AppEstanteria\\Biblioteca\\Biblioteca.csproj",
         "packagesPath": "C:\\Users\\Lisandro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lisandro\\Source\\Repos\\AppEstanteria\\Biblioteca\\obj\\",
+        "outputPath": "C:\\Users\\Lisandro\\Source\\Repos\\Agusmat22\\AppEstanteria\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lisandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\Lisandro\\Source\\Repos\\AppEstanteria\\Estante\\Estante.csproj": {
+    "C:\\Users\\Lisandro\\Source\\Repos\\Agusmat22\\AppEstanteria\\Estante\\Estante.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lisandro\\Source\\Repos\\AppEstanteria\\Estante\\Estante.csproj",
+        "projectUniqueName": "C:\\Users\\Lisandro\\Source\\Repos\\Agusmat22\\AppEstanteria\\Estante\\Estante.csproj",
         "projectName": "Estante",
-        "projectPath": "C:\\Users\\Lisandro\\Source\\Repos\\AppEstanteria\\Estante\\Estante.csproj",
+        "projectPath": "C:\\Users\\Lisandro\\Source\\Repos\\Agusmat22\\AppEstanteria\\Estante\\Estante.csproj",
         "packagesPath": "C:\\Users\\Lisandro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lisandro\\Source\\Repos\\AppEstanteria\\Estante\\obj\\",
+        "outputPath": "C:\\Users\\Lisandro\\Source\\Repos\\Agusmat22\\AppEstanteria\\Estante\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lisandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Lisandro\\Source\\Repos\\AppEstanteria\\Biblioteca\\Biblioteca.csproj": {
-                "projectPath": "C:\\Users\\Lisandro\\Source\\Repos\\AppEstanteria\\Biblioteca\\Biblioteca.csproj"
+              "C:\\Users\\Lisandro\\Source\\Repos\\Agusmat22\\AppEstanteria\\Biblioteca\\Biblioteca.csproj": {
+                "projectPath": "C:\\Users\\Lisandro\\Source\\Repos\\Agusmat22\\AppEstanteria\\Biblioteca\\Biblioteca.csproj"
               }
             }
           }
