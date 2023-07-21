@@ -13,20 +13,20 @@ namespace Biblioteca
 
         //inicializo el constructor privado para que no puedan acceder
         private Estanteria(int capacidadProductos)
-        { 
+        {
             productos = new Producto[capacidadProductos];
         }
 
         //sobrecargo el constructor de forma publica para que ingrese los valores
-        public Estanteria(int capacidadProductos,int ubicacionEstante): this(capacidadProductos) 
-        { 
+        public Estanteria(int capacidadProductos, int ubicacionEstante) : this(capacidadProductos)
+        {
             this.ubicacionEstante = ubicacionEstante;
         }
 
         //Creo el get para retornar el array
         public Producto[] GetProductos
-        { 
-            get 
+        {
+            get
             {
                 return productos;
             }
@@ -44,14 +44,16 @@ namespace Biblioteca
 
         }
 
+        //SOBRECARGA DE OPERADORES ARITMETICOS
         public static bool operator ==(Estanteria estante, Producto producto)
-        {    
+        {
             foreach (var espacio in estante.GetProductos)
             {
-                if (espacio == producto.GetMarca)
+                //pregunto si espacio no es NULL y dentro de espacio va conteneer un objeto entonces pregunto la marca
+                if (espacio is not null && espacio.GetMarca == producto.GetMarca)
                 {
                     return true;
-                    
+
                 }
 
             }
@@ -63,7 +65,7 @@ namespace Biblioteca
         {
             foreach (var espacio in estante.GetProductos)
             {
-                if (espacio == producto.GetMarca)
+                if (espacio is not null && espacio.GetMarca == producto.GetMarca)
                 {
                     return false;
 
@@ -74,14 +76,20 @@ namespace Biblioteca
 
         }
 
+        public static bool operator +(Estanteria estante, Producto producto)
+        {
+            for (int i = 0; i < estante.GetProductos.Length; i++)
+            {
+                if (estante != producto)
+                {
+                    estante.GetProductos[i] = producto;
+                    return true;
 
+                }
 
-
-
-
-
-
-
+            }
+            return false;
+        }
 
 
 

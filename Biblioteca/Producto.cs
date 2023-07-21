@@ -1,5 +1,4 @@
-﻿
-using System.Text;
+﻿using System.Text;
 
 namespace Biblioteca
 {
@@ -17,13 +16,13 @@ namespace Biblioteca
         }
 
         //GETTER
-        public string GetMarca 
+        public string GetMarca
         {
-            get 
+            get
             {
-                return marca;            
+                return marca;
             }
-            
+
         }
 
         public float GetPrecio
@@ -35,7 +34,7 @@ namespace Biblioteca
 
         }
 
-        public string MostrarProducto(string marca,string codigo,float precio)
+        public string MostrarProducto(string marca, string codigo, float precio)
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"Marca: {marca} ");
@@ -45,21 +44,33 @@ namespace Biblioteca
             return sb.ToString();
         }
 
-        //CREO UN OPERADOR EXPLICITO
-        public static explicit operator string( Producto obj ) 
+        //CREO UN OPERADOR EXPLICITO PARA MOSTRAR "CODIGO DE BARRA"
+        public static explicit operator string(Producto producto)
         {
-            return obj.codigoDeBarra;
+            return producto.codigoDeBarra;
         }
 
         //CREO UNA SOBRECARGA DE OPERADORES
 
-        public static bool operator ==( Producto producto1, Producto producto2 )
-        { 
+        public static bool operator ==(Producto producto1, Producto producto2)
+        {
             return producto1.GetMarca == producto2.GetMarca;
-            
+
         }
 
-        public static bool operator ==(Producto producto1,string marcaIngresada)
+        public static bool operator ==(Producto producto1, string marcaIngresada)
+        {
+            return producto1.marca == marcaIngresada;
+
+        }
+
+        public static bool operator ==(string marcaIngresada, Producto producto1)
+        {
+            return producto1.marca == marcaIngresada;
+
+        }
+
+        public static bool operator !=(string marcaIngresada, Producto producto1)
         {
             return producto1.marca == marcaIngresada;
 
